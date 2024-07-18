@@ -8,13 +8,16 @@ What if we redefine the churn event to a multiclass problem, eg. no interaction/
 
 
 # Problem Statement
+
+An online retail (E commerce) company wants to know the customers who are going to churn, so they can respond accordingly.
+
 If customers that are likely to stop shopping at this retail store are identified; this is crucial for minimizing their churn and optimize retention strategies. 
 
 * In the context of this project, churn is when a customer completely stops to buy the products. For that purpose, any one who is displaying leading traits is considered likely to churn
   
-* According to Bloom intelligence, a churn rate between 5 to 7 percent is considered acceptable. Something less than 5 is great but over 7 is a concern. 
+* According to Bloom Intelligence, a churn rate between 5 to 7 percent is considered acceptable. Something less than 5 is great but over 7 is a concern. 
 
-Churining can happen due to all sorts of reasons. This project aims to identify which (if there is) is the reason for churing. Is it one of the following? or any other? 
+Churning can happen due to all sorts of reasons. This project aims to identify which (if there is) is/are the reason(s) for churning. Is it one of the following? or any other? 
 * unsatisfactory services
 * competing products
 * changing customer needs
@@ -23,7 +26,9 @@ Churining can happen due to all sorts of reasons. This project aims to identify 
 The overall mission of this project is to not only help in retaining valuable customers by addressing customer satisfaction, but also enhance overall business profitability. 
 
 # Dataset
-The data set belongs to a leading online E-Commerce company. An online retail (E commerce) company wants to know the customers who are going to churn, so accordingly they can approach customer to offer some promos. (Link to Kaggle: https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction )
+The data set belongs to a leading online E-Commerce company. An online retail (E commerce) company wants to know the customers who are going to churn, so accordingly they can approach customer to offer some promos.
+
+(Link to Kaggle: https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction )
 
 # Data Preparation
 
