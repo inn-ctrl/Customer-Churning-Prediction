@@ -34,6 +34,17 @@ The data set belongs to a leading online E-Commerce company. An online retail (E
 
 Clean data (missing values, outliers, inconsistencies)
 
+* Some numeric columns have nulls. Since these numbers are very few in comparison, I decided to replace those nulls with the mean of respective columns
+* I performed a few checks to see if there are white spaces and if categorical data makes sense. With categorical data, I made the following assumption:
+
+"Mobile Phone is same as Phone": Even though there are subtle differences in that one can be portable and another stationary, but they are mostly interchangeable terms. Since they are devices used to log-in to the e-commerce store, I would assume they are all smartphones in the end. So, I went with 'Mobile Phone'. 
+
+"In prefered payment columns, CC same as Credit Card and COD is same as Cash On Delivery". So, they were fixed as well. 
+
+"UPI is same as Unified Payment Interface". It was removed from abbreviations just to make things consistent. 
+
+* Outliers: There are 4 outliers in 'Tenure column'- a column that shows how long a customer has been with the business.Considering that the e-commerce business is likely to have loyal customers for a longer time compared to others; this is a genuine outlier. I decide to keep them since they might provide valuable insights 
+
 Perform EDA using to understand distribution, correlations, and patters
 (example of KPIs to identify: declining purchase frequency, reduced average spending, average purchase frequency overtime, customer support interaction,  or shifts in shopping preferences,)
 
