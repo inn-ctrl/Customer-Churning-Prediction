@@ -49,7 +49,9 @@ Perform EDA using to understand distribution, correlations, and patters
 (example of KPIs to identify: declining purchase frequency, reduced average spending, average purchase frequency overtime, customer support interaction,  or shifts in shopping preferences,)
 
 
-Create a dashboard for Performance metrics in Tableau
+Using Tableau: 
+- After finding the correlatins, visualizing every feature against Churn gave a confirmation of features that contribute less to Churing. For those, I used PCA to drop them. 
+- After getting the most important features, I used tableau to create a dashboard for Performance metrics that can be easily shared to different stakeholers. 
 
 # Feature Engineering
 
